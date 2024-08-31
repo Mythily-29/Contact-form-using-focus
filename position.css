@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(102, 138, 168);
+    max-width: 1440px;
+    width: 100%;
+    margin: none;
+    font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: auto;
+  height: auto;
+  width: auto;
+}
+
+.header{
+    text-align: center;
+    border-bottom: 1px solid black;
+    
+    position: sticky;
+    
+ }
+ #mybtn{
+     position: absolute;
+     bottom: 95px;
+     left: 35%;
+     background-color: rgb(218, 223, 226);
+     height: 50%;
+     
+     width: 30%;
+     
+    
+     padding: 20px;
+     border-radius: 10px;
+
+ }
+ .button{
+    color: white;
+    font-weight:bold;
+     font-size: 15px;
+     width: 30%;
+     height:12%;
+     border-radius: 10px;
+     position: absolute;
+     top: 45%;
+     cursor: pointer;
+     left:33%;  
+     background-color: rgb(30, 26, 26); 
+ }
+ .mymodal {
+    width: 100%;
+ }
+
+.sub-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+ .form-container{
+
+    background-color: rgb(254, 254, 243);
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    padding: 25px;
+    border-radius: 20px;  
+ }
+
+ .content{
+    position: relative;
+    margin: 40px auto;
+    left: 5%;
+    
+}
+.input-1,.input-2{
+    border: 1px solid grey;
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 1px;
+}
+.input-3{
+    border: 1px solid grey;
+    width: 90%;
+    position: relative;
+    height: 53px;
+    border-radius: 5px;
+    /*position: relative; 
+     bottom:18px;*/
+
+}
+.label{
+    position: absolute;
+    left: 1%;
+    bottom: 18px;
+    
+}
+.message{
+    position: absolute;
+    left: 1%;
+    top : 10%;
+    /* padding: 5px 10px; */
+    
+}
+.send{
+    background-color: rgb(9, 9, 48);
+    color: white;
+    border: 3px solid;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    bottom: 4%;
+    left: 45%;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: bold;
+    
+}
+.send:hover{
+    background-color: rgb(68, 89, 128);
+    cursor: pointer;
+}
+
+input:focus + .label{
+    top: -30px;
+}
+.input-3:focus + .message{
+    top: -25px;
+   /* color : red; */
+}
